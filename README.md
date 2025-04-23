@@ -2,10 +2,6 @@
 
 This project provides a web interface for running Named Entity Recognition (NER) using a fine-tuned BERT model. Upload a text file, and the app will extract entities like names, organizations, locations, and times.
 
-## 📁 Project Structure
-. ├── ner_datasetreference.csv # Dataset used for training ├── train_bert.py # Script to fine-tune BERT ├── app.py # Streamlit interface for running the model └── trained_model/ # Directory containing the fine-tuned BERT model
-
-
 ## 🚀 Features
 
 - Upload and analyze `.txt` files
@@ -24,8 +20,6 @@ cd Autoframer
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Install dependencies
-pip install -r requirements.txt
 
 ```
 
@@ -42,7 +36,7 @@ This will save your fine-tuned model to the trained_model/ directory.
 ## 💻 Run the App
 
 ```bash
-streamlit run .py
+streamlit run model_interface.py
 ```
 Open your browser and go to http://localhost:8501 to interact with the app.
 
