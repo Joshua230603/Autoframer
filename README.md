@@ -39,6 +39,8 @@ This will save your fine-tuned model to the trained_model/ directory.
 streamlit run model_interface.py
 ```
 Open your browser and go to http://localhost:8501 to interact with the app.
+<img width="1124" height="578" alt="image" src="https://github.com/user-attachments/assets/7ccbf23e-7190-45c9-a527-1c54b830526f" />
+
 
 ## 📦 Output
 
